@@ -428,8 +428,8 @@ else
   call gruvbox_material#highlight('PurpleSign', s:palette.purple, s:palette.bg2)
 endif
 if s:configuration.diagnostic_text_highlight
-  call gruvbox_material#highlight('ErrorText', s:palette.none, s:palette.bg_visual_red, 'undercurl', s:palette.red)
-  call gruvbox_material#highlight('WarningText', s:palette.none, s:palette.bg_visual_yellow, 'undercurl', s:palette.yellow)
+  call gruvbox_material#highlight('ErrorText', s:palette.red, s:palette.bg_visual_red, 'undercurl', s:palette.red)
+  call gruvbox_material#highlight('WarningText', s:palette.yellow, s:palette.bg_visual_yellow, 'undercurl', s:palette.yellow)
   call gruvbox_material#highlight('InfoText', s:palette.none, s:palette.bg_visual_blue, 'undercurl', s:palette.blue)
   call gruvbox_material#highlight('HintText', s:palette.none, s:palette.bg_visual_green, 'undercurl', s:palette.green)
 else
